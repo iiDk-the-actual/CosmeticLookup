@@ -24,7 +24,7 @@ namespace CosmeticLookup
         GUIStyle textFieldStyle;
         GUIStyle labelStyle;
         GUIStyle buttonStyle;
-        bool isVisible = true;
+        bool isVisible;
         float visibleDelay = 0f;
 
         void OnGUI()
@@ -76,7 +76,7 @@ namespace CosmeticLookup
         {
             outputString = "";
 
-            Dictionary<string, string> cosmetics = new Dictionary<string, string> { { "LBAAD.", "ADMINISTRATOR BADGE" }, { "LBAAK.", "MOD STICK" }, { "LBADE.", "FINGER PAINTER BADGE" }, { "LBAGS.", "ILLUSTRATOR BADGE" } };
+            Dictionary<string, string> cosmetics = new Dictionary<string, string> { { "LBAAD.", "ADMINISTRATOR BADGE" }, { "LBAAK.", "MOD STICK" }, { "LBADE.", "FINGER PAINTER BADGE" }, { "LBAGS.", "ILLUSTRATOR BADGE" }, { "LMAPY.", "FOREST GUIDE MOD STICK" } };
 
             GorillaComputer.instance.UpdateScreen();
             PlayFabClientAPI.GetSharedGroupData(new GetSharedGroupDataRequest
