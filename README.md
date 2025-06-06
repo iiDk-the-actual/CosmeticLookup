@@ -1,5 +1,5 @@
 # CosmeticLookup
-A GUI to see what cosmetics someone has in a room without joining the room
+A GUI for Gorilla Tag to see what cosmetics someone has in a room without joining the room
 
 <img src="https://i.imgur.com/gFqwlHe.png">
 
