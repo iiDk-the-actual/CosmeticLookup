@@ -1,3 +1,5 @@
+This mod is patched
+
 # CosmeticLookup
 A GUI for Gorilla Tag to see what cosmetics someone has in a room without joining the room
 
